@@ -11,7 +11,7 @@ body {
 
 #container {
   background-color: #e8e8e8;
-  padding: 50px;
+  padding: 40px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -26,11 +26,11 @@ h1 {
 label {
   display: block;
   margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 form {
-  width: 750px;
-  font-size: 1.2rem;
+  width: 600px;
 }
 
 .input {
@@ -51,7 +51,7 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 input[type="submit"] {

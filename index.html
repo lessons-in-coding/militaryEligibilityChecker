@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Military Eligibility Checker</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Military Eligibility</h1>
+      <div id="formContainer">
+        <form id="eligibilityForm">
+          <label class="input" for="name">Name:</label>
+          <input type="text" id="name" required />
+
+          <label class="input" for="gender">Gender:</label>
+          <select id="gender" required>
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+          <label class="input" for="age">Age:</label>
+          <input type="number" id="age" required />
+
+          <label class="input" for="isDisabled">Are you disabled?</label>
+          <select id="isDisabled" required>
+            <option value="">Select</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+
+          <label class="input" for="isReligiousWorker"
+            >Are you a religious worker?</label
+          >
+          <select id="isReligiousWorker" required>
+            <option value="">Select</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+
+          <label class="input" for="isUnderMedication"
+            >Are you under severe medication?</label
+          >
+          <select id="isUnderMedication" required>
+            <option value="">Select</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+
+          <!-- <div id="marriedQuestion" style="display: none"> -->
+          <label class="input" for="isMarried">Are you married?</label>
+          <select id="isMarried" required>
+            <option value="">Select</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+          <!-- </div> -->
+          <input class="submit" type="submit" value="Check Eligibility" />
+        </form>
+      </div>
+      <div class="result" id="result" style="display: none"></div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

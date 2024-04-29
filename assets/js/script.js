@@ -56,7 +56,7 @@ form.addEventListener("submit", function (event) {
   ) {
     result.innerHTML = `Oh! Sorry ${name}, you are eligible to apply for the military.`;
   } else {
-    result.innerHTML = `Congrats ${name}, you are NOT eligible to apply for the military!!!`;
+    result.innerHTML = `Congrats! ${name}, you are NOT eligible to apply for the military!!!`;
   }
   result.style.display = "block";
   formContainer.style.display = "none";
